@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right,  #ffcccc, #ffcccc);
+    color: #333;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+  }
+
+  h1 {
+    font-size: 3em;
+    color: #b30059;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    max-width: 700px;
+    line-height: 1.8;
+    font-size: 1.2em;
+    text-align: center; /* This is what centers the text */
+    margin: 0 auto;      /* Optional: center the paragraph block itself */
+  }
+  .heart {
+    font-size: 3em;
+    color: red;
+    animation: pulse 1s infinite;
+    margin-top: 20px;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  .slideshow {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 0 auto; /* centers the slideshow on smaller screens */
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; /* properly layers the images for fading */
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slideshow img.active {
+    opacity: 1;
+  }
+
+  
+  header {
+    background-color: #333;
+    padding: 15px 20px;
+    text-align: left;
+  }
+
+  header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  header a:hover {
+    color: #ffcc00;
+  }
+
+   /* Basic page styling */
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  /* Gallery grid styling */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .gallery img {
+width: 100%;
+display: block;
+cursor: pointer;
+border: 2px solid #ddd;
+transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.gallery img:hover {
+transform: scale(1.05);
+border-color: #bbb;
+}
+/* Lightbox modal styling */
+.lightbox {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.8);
+z-index: 1000;
+align-items: center;
+justify-content: center;
+}
+.lightbox img {
+max-width: 80%;
+max-height: 80%;
+}
+.lightbox-close {
+position: absolute;
+top: 20px;
+right: 30px;
+font-size: 40px;
+color: #fff;
+cursor: pointer;
+}
+
+  

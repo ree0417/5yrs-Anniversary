@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px;">
+  <a href="gallary.html"><img src="images/Logo 2025-04-16 at 14.20.49_ce6bf6f7.jpg" alt="R&A Logo" style="height: 70px;"></a>
+  <div></div>
+
+  <!-- Right side: Logo/Text -->
+  <a href="index.html">
+    <span style="font-size: 1.2em; margin-right: 0;">About Us</span>
+  </a>
+</header>
+<body>
+    <style>
+       
+        h1 {
+          text-align: center;
+          padding: 20px 0;
+        }
+        /* Gallery grid styling */
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+          gap: 10px;
+          padding: 10px;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+        .gallery img {
+      width: 100%;
+      display: block;
+      cursor: pointer;
+      border: 2px solid #ddd;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      border-color: #bbb;
+    }
+    /* Lightbox modal styling */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .lightbox img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 40px;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>OUR MEMORIES❤️</h1>
+
+  <!-- Gallery Grid -->
+  <div class="gallery">
+    <img src="images/IMG-20250301-WA0022.jpg" alt="Image 1">
+    <img src="images/Snapchat-122220843.jpg" alt="Image 2">
+    <img src="images/IMG-20250301-WA0024.jpg" alt="Image 3">
+    <img src="images/Snapchat-1840779879.jpg" alt="Image 4">
+    <img src="images/WhatsApp Image 2025-04-16 at 12.26.54_ab9103ed.jpg" alt="Image 6">
+    <img src="images/Snapchat-324892399.jpg" alt="Image 5">
+    <img src="images/WhatsApp Image 2025-04-16 at 12.26.55_3edcbe4e.jpg" alt="Image 6">
+  <!-- <img src="images/Snapchat-516455670.mp4" alt="Image 6"> -->
+    <img src="images/Snapchat-891834989.jpg" alt="Image 6">
+    <img src="images/Snapchat-578351391.jpg" alt="Image 6">
+    <img src="images/WhatsApp Image 2025-04-16 at 12.26.55_ff165f8d.jpg" alt="Image 6">
+    <img src="images/Snapchat-604405739.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_095546.jpg " alt="Image 6">
+    <img src="images/IMG_20240710_095606.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_095611.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_095643.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_095651.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_102346.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_135005.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134947.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134931.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134908.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134850.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134826.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134758.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134737.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134724.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_134612.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_111032.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_111004.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_110538.jpg" alt="Image 6">
+    <img src="images/IMG_20240723_110537.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_131828.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125809.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125747.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125735.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125723.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125646.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_123948.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125530.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125508.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125442.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125417.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125338.jpg" alt="Image 6">
+    <img src="images/IMG_20240710_125246.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121201.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121253.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121134.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121330.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121400.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121422.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121844.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121855.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121913.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_121921.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_123209.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_123220.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_123246.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_140422.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_140515.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_140521.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_140535.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_140544.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_144643.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_144636.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_144543.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_144506.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_143848.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_143834.jpg" alt="Image 6">
+    <img src="images/IMG_20250115_140535.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0049.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0050.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0051.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0052.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0054.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0055.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0056.jpg" alt="Image 6">    <!-- <img src="images/" alt="Image 6">
+    <img src="images/IMG-20250415-WA00.jpg" alt="Image 6">
+    <img src="images/IMG-20250415-WA0054.jpg" alt="Image 6"> -->
+
+
+    
+
+  </div>
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <span id="lightboxClose" class="lightbox-close">&times;</span>
+    <img id="lightboxImg" src="" alt="Enlarged Image">
+  </div>
+
+  <script>
+    // Select all the gallery images and necessary modal elements.
+    const galleryImages = document.querySelectorAll('.gallery img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.getElementById('lightboxClose');
+
+    // When any gallery image is clicked, display the lightbox and update its content.
+    galleryImages.forEach(img => {
+      img.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightboxImg.src = img.src;
+      });
+    });
+
+    // Close the lightbox when the close button is clicked.
+    lightboxClose.addEventListener('click', () => {
+      lightbox.style.display = 'none';
+    });
+    // Also close the lightbox if the user clicks outside the image.
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.style.display = 'none';
+      }
+    });
+
+    window.addEventListener('load', function () {
+      // Create an audio element
+      const backgroundAudio = document.createElement('audio');
+      backgroundAudio.src = 'audio/WhatsApp Audio 2025-02-16 at 18.53.01_f813c0e5.mp3'; // Replace with your audio file path
+      backgroundAudio.loop = true;
+
+      // Append the audio element to the document body (optional: if you want to manipulate it later)
+      document.body.appendChild(backgroundAudio);
+
+      // Attempt to start playback
+      // Many browsers restrict autoplay; if auto-play is blocked, consider a user-initiated event.
+      backgroundAudio.play().catch(function (error) {
+        console.error("Autoplay prevented. Consider adding a user action to start the audio:", error);
+      });
+    });
+  </script>
+</body>
+</html>
